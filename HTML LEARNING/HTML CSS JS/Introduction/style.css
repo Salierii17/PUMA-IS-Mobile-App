@@ -1,0 +1,30 @@
+body {  background-color:powderblue;
+        background-image:url("Archons.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+tabel {
+      border : 1px solid black;
+      padding : 1px;
+      }
+h1 {	text-align : center;
+     size  : 500%;	
+     margin		: 30px
+     length		: 400%
+     font-family: arial;
+     
+     }
+h2	{	text-size : 200%;
+     font-family: verdana;
+     color : red
+     }
+h3 {	text-size : 200%;
+     font-family: verdana;
+     color : red
+     background-image:url("img_Archons.jpg");
+     }
+.tab1 {
+    tab-size: 8;
+}     
