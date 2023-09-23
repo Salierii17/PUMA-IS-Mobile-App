@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IS week 10</title>
+</head>
+<style>
+    h1  {
+
+    }
+    p   {
+        font-size: 700%;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1></h1>
+    <p>Hellow world</p> 
+
+</body>
+</html>

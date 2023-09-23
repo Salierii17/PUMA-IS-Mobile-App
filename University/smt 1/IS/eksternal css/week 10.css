@@ -1,0 +1,16 @@
+body    {
+    background-color:range;
+}
+h1      {
+    font-size: 500%;
+    text-align: center;
+}
+p       {
+    font-size: 250%;
+    text-align: center;
+}
+blockquote {
+    font-size: 250%;
+    text-align: center;
+    
+}

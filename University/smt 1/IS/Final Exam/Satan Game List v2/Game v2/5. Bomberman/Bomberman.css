@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+background-color:black;
+font-family: "Roboto";
+}
+.Navbar{
+background-color: black;
+margin: 0px -8px 0 -8px;
+font-family: 'Monoton', monospace;
+
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 5%;
+padding-right: 1%;
+}
+.Logo{
+color: red;
+font-size: 28px;
+}
+span{
+color: #fff;
+}
+
+nav ul li{
+list-style-type: none;
+display:inline-block;
+padding: 10px 20px ;
+font-size: 20px;
+}
+nav ul li a{
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+nav ul li a:hover{
+color: red;
+transition: .3s;}
+
+h1{
+    text-align: center;
+    color: white;
+}
+.game{
+    padding-left: 300px;
+}
+canvas {
+background: forestgreen;
+}

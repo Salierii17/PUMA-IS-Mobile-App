@@ -1,0 +1,55 @@
+
+body {  
+    background: linear-gradient(217deg,rgba(255, 0, 0, 0.8),rgba(255, 0, 0, 0) 70.71%), 
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    text-align: center
+}
+
+h1 {	
+    text-align  : center;
+    size        : 500%;	
+    font-family : "Fantasy";
+}
+h2{
+    color: rgb(95, 111, 160);
+    border: none;
+    background-color: white;
+    margin-left: 625px;
+    margin-right: 625px;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    color      : rgb(242, 255, 0);
+    size       : 300%;
+}
+
+tab, th, td{
+    border         : 2px solid white;
+    border-collapse: collapse;
+    align-content  : left;
+    width: 50%;
+      }
+th, td {
+    color: black;
+    padding-top    : 2px;
+    padding-bottom : 2px;
+    padding-left   : 5px;
+    padding-right  : 5px;
+    text-align     : center;
+    }
+td{
+    padding-right:150px;
+    padding-left:150px;
+
+}
+tr  {
+    border-bottom: 1px solid white;
+    }
+tr:hover { 
+    background-color: white;
+}
+img{
+    padding-left: 60px;
+}
