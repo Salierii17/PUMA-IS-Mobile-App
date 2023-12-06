@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:background="#FFC075"
+        />
+
+    <View
+        android:id="@+id/ellipse_102"
+        android:layout_width="153dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-80dp"
+        android:background="@drawable/ellipse_102"
+        />
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <TextView
+        android:id="@+id/mifthahul_j"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:lineHeight="20sp"
+        android:text="Mifthahul Jannah Wirma"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        />
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="370dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <!-- drawable/rectangle_5.xml -->
+
+    <!--
+      Font family: Inter
+      Line height: 20sp
+      -->
+
+    <!-- styles.xml -->
+<!--    <style name="mifthahul_j">-->
+<!--        <item name="android:textSize">24sp</item>-->
+<!--        <item name="android:textColor">#000000</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; strings.xml &ndash;&gt;-->
+<!--    <string name="mifthahul_j">-->
+<!--        Mifthahul Jannah Wirma-->
+<!--    </string>-->
+
+    <!-- drawable/ellipse_102.xml -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu"/>
+
+    <fragment
+        android:id="@+id/nav_host_fragment_activity_main"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@id/nav_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/mobile_navigation"
+    />
+
+    <View
+        android:layout_width="104dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/frame" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>
