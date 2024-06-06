@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".ui.login.LoginActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/puma"
+            android:layout_width="340dp"
+            android:layout_height="96dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:gravity="center_horizontal|top"
+            android:text="PUMA"
+            android:textColor="#C205C2CE"
+            android:textSize="80sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/information"
+            android:layout_width="290dp"
+            android:layout_height="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:gravity="center_horizontal|top"
+            android:text="INFORMATION SYSTEM"
+            android:textColor="#FF7D33"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/puma"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/e_mail_addr"
+            android:layout_width="326dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="76dp"
+            android:gravity="top"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="1sp"
+            android:text="E-mail Address"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:translationY="-0.74sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/information"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="326dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:hint="e.g: mifthahulwirma@student.ac.id"
+            android:inputType="textEmailAddress"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/information"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tv_password"
+            android:layout_width="326dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="60dp"
+            android:gravity="top"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="1sp"
+            android:text="Password"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:translationY="-0.74sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/et_email"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="328dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="7dp"
+            android:ems="10"
+            android:hint="*******"
+            android:inputType="textPassword"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_password"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="239dp"
+            android:fontFamily="serif"
+            android:text="Remember me?"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_password"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/forgot_pass"
+            android:layout_width="122dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="3sp"
+            android:text="Forgot Password?"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:translationY="-1.53sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/checkBox"
+            app:layout_constraintTop_toBottomOf="@+id/et_password"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="191dp"
+            android:layout_height="49dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="85dp"
+            android:backgroundTint="#FF7966"
+            android:elevation="25dp"
+            android:text="Sign In"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_password"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/if_you_don_"
+            android:layout_width="225dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="3sp"
+            android:text="If you don\'t have an account yet?"
+            android:textSize="12sp"
+            android:translationY="-1.53sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signin"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="327dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/black"
+            android:elevation="25dp"
+            android:text="Sign Up"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/if_you_don_"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/by_register"
+            android:layout_width="326dp"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="1sp"
+            android:text="By registering, you agree to our Terms of Use. Learn how we collect, use and share your data."
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:translationY="-0.74sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signup"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

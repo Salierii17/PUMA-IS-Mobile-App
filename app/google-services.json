@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "722020724974",
+    "firebase_url": "https://finpro-85f25-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "finpro-85f25",
+    "storage_bucket": "finpro-85f25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722020724974:android:4b4889f46f35f05a2303ff",
+        "android_client_info": {
+          "package_name": "com.example.mp_group_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP7gzBSG6dUrDCTnnxhcjTkx1sIoGLnfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

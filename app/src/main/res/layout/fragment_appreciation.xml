@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="APPRECIATION"
+            android:textSize="38sp"
+            android:textColor="#54C9EE"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="PUMA IS"
+            android:layout_marginTop="-17dp"
+            android:textColor="#FF7966"
+            android:textSize="38sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/angry"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="30dp"
+        android:text="Angry Member"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/appreciation_input"
+        android:textSize="15dp"
+        android:paddingStart="15dp"
+        android:textColor="#A2A2B5"
+        android:hint="Name" />
+
+
+    <TextView
+        android:id="@+id/good_member"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Good Member"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginLeft="50dp"
+        android:paddingStart="15dp"
+        android:textSize="15dp"
+        android:background="@drawable/appreciation_input"
+        android:textColor="#A2A2B5"
+        android:hint="Name" />
+
+    <TextView
+        android:id="@+id/CuteMember"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Cute Member"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/appreciation_input"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:textSize="15dp"
+        android:textColor="#A2A2B5"
+        android:hint="Name" />
+    <TextView
+        android:id="@+id/po"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Beautiful Member"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginLeft="50dp"
+        android:paddingStart="15dp"
+        android:textSize="15dp"
+        android:background="@drawable/appreciation_input"
+        android:textColor="#A2A2B5"
+        android:hint="Name" />
+    <TextView
+        android:id="@+id/pos"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Active Systemites"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+
+    <EditText
+        android:id="@+id/editTextText90"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginLeft="50dp"
+        android:paddingStart="15dp"
+        android:background="@drawable/appreciation_input"
+        android:textSize="15dp"
+        android:textColor="#A2A2B5"
+        android:hint="Name" />
+    <TextView
+        android:id="@+id/pozx"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Good Project From Systemites"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+
+    <EditText
+        android:id="@+id/editTextText67"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginLeft="50dp"
+        android:textSize="15dp"
+        android:paddingStart="15dp"
+        android:background="@drawable/appreciation_input"
+        android:textColor="#A2A2B5"
+        android:hint="Name " />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#FF7966"
+        android:text="Upload" />
+
+</LinearLayout>

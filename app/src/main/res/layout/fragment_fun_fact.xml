@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="INFORMATION SYSTEM"
+            android:textSize="25dp"
+            android:textColor="#54C9EE"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="INFORMATION"
+            android:layout_marginTop="-17dp"
+            android:textColor="#FF7966"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="#FF7966"
+            android:text="B-Techji" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#24D2DD"
+            android:gravity="center"
+            android:text="InTechie" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_info"
+        android:layout_width="wrap_content"
+        android:layout_height="148dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/baseline_image_150" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:backgroundTint="#FFC075"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Upload Image" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:text="Topic" />
+
+    <EditText
+        android:id="@+id/et_topic"
+        android:layout_width="345dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:paddingStart="18dp"
+        android:inputType="text"
+        android:background="@drawable/input_fun_fact"
+        android:gravity="top"
+        android:textColor="#A2A2B5"
+        android:text=".." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="Information" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="345dp"
+        android:layout_height="131dp"
+        android:layout_marginLeft="25dp"
+        android:paddingStart="18dp"
+        android:background="@drawable/big_input_fun_fact"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="text"
+        android:textColor="#A2A2B5"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="140dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF7966"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Upload" />
+
+
+</LinearLayout>

@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#FFC075" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/home_profile_picture"
+        style="@style/circleImageView"
+        android:layout_width="153dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-90dp"
+        app:shapeAppearanceOverlay="@style/Circular"
+        android:background="@drawable/profile_picture_default2" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:lineHeight="20sp"
+        android:text="Guest"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rectangle_5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:id="@+id/btn_motivational"
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:background="@drawable/frame">
+
+            <TextView
+                android:id="@+id/momo"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Motivational Monday"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_aspiration"
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/frame">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Aspiration Week"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_appreciation"
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:background="@drawable/frame">
+
+            <TextView
+                android:id="@+id/appreciation"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Appreciation PUMA IS"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/structure_pumais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:background="@drawable/button">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Structure PUMA IS"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/see_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:clickable="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical"
+        android:text="See All"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/intechie">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="70dp"
+                        android:text="InTechie"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="15dp"
+                        android:text="View"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/fun_fact_frame2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="70dp"
+                        android:text="B-Techji"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/view2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="15dp"
+                        android:text="View"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/ffframe3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/fun_fact_frame3">
+
+                    <TextView
+                        android:id="@+id/tiga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:text="3"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ff3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="70dp"
+                        android:text="InTechie"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/view3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="15dp"
+                        android:text="View"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/fun_fact_frame4">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:text="4"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="70dp"
+                        android:text="B-Techji"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="15dp"
+                        android:text="View"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/fun_fact_frame5">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:text="5"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="70dp"
+                        android:text="B-Techji"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="15dp"
+                        android:text="View"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/fun_fact_frame4">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:text="6"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="70dp"
+                        android:text="B-Techji"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="15dp"
+                        android:text="View"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/fun_fact_frame4">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="10dp"
+                        android:text="7"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="70dp"
+                        android:text="B-Techji"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="15dp"
+                        android:text="View"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="0dp"
+            android:minHeight="32dp">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btn_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#FFC075"
+                app:srcCompat="@drawable/baseline_add_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
+
+
+<!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--android:id="@+id/btn_add_momo"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginBottom="12dp"-->
+<!--android:backgroundTint="#FFC075"-->
+<!--app:srcCompat="@drawable/momo"-->
+<!--app:layout_constraintBottom_toTopOf="@id/btn_main"-->
+<!--app:layout_constraintEnd_toEndOf="@id/btn_main"-->
+
+<!--    />-->
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="MOMO"-->
+<!--android:textStyle="bold"-->
+<!--android:elevation="8dp"-->
+<!--app:layout_constraintEnd_toStartOf="@id/btn_add_momo"-->
+<!--app:layout_constraintTop_toTopOf="@id/btn_add_momo"-->
+<!--app:layout_constraintBottom_toBottomOf="@id/btn_add_momo"-->
+<!--    />-->
+<!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--android:id="@+id/btn_add_aspiration"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginBottom="12dp"-->
+<!--android:backgroundTint="#FFC075"-->
+<!--app:srcCompat="@drawable/aspiration"-->
+<!--app:layout_constraintBottom_toTopOf="@id/btn_add_momo"-->
+<!--app:layout_constraintEnd_toEndOf="@id/btn_add_momo"-->
+
+<!--    />-->
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="MOMO"-->
+<!--android:textStyle="bold"-->
+<!--android:elevation="8dp"-->
+<!--app:layout_constraintEnd_toStartOf="@id/btn_add_aspiration"-->
+<!--app:layout_constraintTop_toTopOf="@id/btn_add_aspiration"-->
+<!--app:layout_constraintBottom_toBottomOf="@id/btn_add_aspiration"-->
+<!--    />-->
+<!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--android:id="@+id/btn_add_appreciation"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginBottom="12dp"-->
+<!--android:backgroundTint="#FFC075"-->
+<!--app:srcCompat="@drawable/momo"-->
+<!--app:layout_constraintBottom_toTopOf="@id/btn_add_aspiration"-->
+<!--app:layout_constraintEnd_toEndOf="@id/btn_add_aspiration"-->
+
+<!--    />-->
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="MOMO"-->
+<!--android:textStyle="bold"-->
+<!--android:elevation="8dp"-->
+<!--app:layout_constraintEnd_toStartOf="@id/btn_add_appreciation"-->
+<!--app:layout_constraintTop_toTopOf="@id/btn_add_appreciation"-->
+<!--app:layout_constraintBottom_toBottomOf="@id/btn_add_appreciation"-->
+<!--    />-->
+<!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--android:id="@+id/btn_add_information"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginBottom="12dp"-->
+<!--android:backgroundTint="#FFC075"-->
+<!--app:srcCompat="@drawable/appreciation"-->
+<!--app:layout_constraintBottom_toTopOf="@id/btn_add_appreciation"-->
+<!--app:layout_constraintEnd_toEndOf="@id/btn_add_appreciation"-->
+
+<!--    />-->
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="MOMO"-->
+<!--android:textStyle="bold"-->
+<!--android:elevation="8dp"-->
+<!--app:layout_constraintEnd_toStartOf="@id/btn_add_information"-->
+<!--app:layout_constraintTop_toTopOf="@id/btn_add_information"-->
+<!--app:layout_constraintBottom_toBottomOf="@id/btn_add_information"-->
+<!--    />-->

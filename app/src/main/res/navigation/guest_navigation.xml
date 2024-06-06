@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.mp_group_project.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.mp_group_project.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_schedule"
+        android:name="com.example.mp_group_project.ui.schedule.ScheduleFragment"
+        android:label="@string/schedule"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/navigation_options"
+        android:name="com.example.mp_group_project.ui.settings.Settings_Fragment"
+        android:label="@string/Options"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/navigation_structure"
+        android:name="com.example.mp_group_project.ui.structure.StructureFragment"
+        android:label="@string/structure"
+        tools:layout="@layout/fragment_structure" />
+    <fragment
+        android:id="@+id/navigation_aspiration"
+        android:name="com.example.mp_group_project.ui.aspiration.AspirationFragment"
+        android:label="@string/aspiration"
+        tools:layout="@layout/fragment_aspiration" />
+    <fragment
+        android:id="@+id/navigation_motivational"
+        android:name="com.example.mp_group_project.ui.motivational.MotivationalFragment"
+        android:label="@string/motivational"
+        tools:layout="@layout/fragment_motivational" />
+    <fragment
+        android:id="@+id/navigation_appreciation"
+        android:name="com.example.mp_group_project.ui.appreciation.AppreciationFragment"
+        android:label="@string/appreciation"
+        tools:layout="@layout/fragment_appreciation" />
+
+    <action
+        android:id="@+id/action_structureFragment_to_homeFragment"
+        app:destination="@id/navigation_home" />
+    <action
+        android:id="@+id/action_homeFragment_to_motivationalFragment"
+        app:destination="@id/navigation_motivational" />
+    <action
+        android:id="@+id/action_homeFragment_to_aspirationFragment"
+        app:destination="@id/navigation_aspiration" />
+    <action
+        android:id="@+id/action_homeFragment_to_appreciationFragment"
+        app:destination="@id/navigation_appreciation" />
+    <action
+        android:id="@+id/action_homeFragment_to_structureFragment"
+        app:destination="@id/navigation_structure" />
+
+
+
+</navigation>
