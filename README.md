@@ -28,8 +28,6 @@ The President University Major Association Information System Mobile Application
 
 ## Requirements
 
-- Any Operating System (macOS, Linux, Windows)
-
 ### Development Tools
 
 - **Android Studio**: Latest version recommended
