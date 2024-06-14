@@ -26,7 +26,6 @@ The President University Major Association Information System Mobile Application
 - **Authentication**: Firebase Authentication
 - **Version Control**: Git, GitHub
 
-## Requirements
 
 ### Development Tools
 
